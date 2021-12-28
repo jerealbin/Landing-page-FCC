@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(204, 204, 204);
+}
+#nav-bar{
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: floralwhite;}
+}
+.logo{
+ display: flex;
+ margin-left: 5%;
+ align-items: center;
+
+}
+#header-img{
+   object-fit: contain;
+   height: 80px;}
+
+  .links{
+      flex: 0.9;
+      text-align: center;
+      font-size: 20px;
+  }
+a{
+    text-decoration: none;
+    color: black;
+   margin-right: 3%;
+   cursor: pointer;
+}
+a:hover{
+color: midnightblue;
+
+}
+.text{
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+align-items: center;
+}
+h1{
+    margin: 30px 0px;
+    font-size: 40px;
+}
+.video{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#productos{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  margin: 150px;
+}
+.title-products{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.zapatilla{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: 0.1;
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+ 
+}
+.caption{
+    text-align: center;
+ 
+}
+.about-us{
+    text-align: center;
+    font-size: 30px;
+
+}
+#discount{
+    justify-content: center;
+    display: grid;
+}
+.h1-discount{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+#email{align-items: center;}
